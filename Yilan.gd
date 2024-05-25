@@ -89,7 +89,7 @@ func _ready():
 	pass
 	
 func yemKoy():
-	var ind = rng.randi_range(0, gen * yuk)
+	var ind = rng.randi_range(0, gen * yuk - 1)
 	if(harita[ind] == 0):
 		harita[ind] = 2
 	pass
